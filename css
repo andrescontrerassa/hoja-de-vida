@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+header {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+}
+header h1 {
+    margin: 0;
+    color: #333;
+}
+header p {
+    margin: 5px 0;
+    color: #777;
+}
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007BFF;
+    margin-bottom: 15px;
+}
+section {
+    margin: 20px 0;
+    text-align: left;
+}
+section h2 {
+    color: #444;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+section p {
+    margin: 5px 0;
+    color: #666;
+}
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skills span {
+    background: #007BFF;
+    color: white;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
